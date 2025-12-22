@@ -246,7 +246,7 @@ hr{
 }
 
 #contact section {
-  width: 20%;
+  width: 25%;
 }
 
 /* footer with socialmedia */
@@ -419,6 +419,10 @@ hr{
 @media (min-width: 1850px) and (max-width: 1920px) {
   #products_desc section{
     font-size: 0.7vw !important;
+  }
+
+  .above_menu {
+    font-size: 0.9rem;
   }
 
   .offer_box{
