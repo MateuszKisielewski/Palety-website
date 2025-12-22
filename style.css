@@ -16,14 +16,29 @@ body{
 }
 
 header{
-  /* background image */
   position: relative;
-  background-image: url('images/banner/baner_01.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  overflow: hidden;
   height: 65vh;
 }
 
+/* banners */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1500ms ease;
+  z-index: 0;
+  opacity: 0;
+}
+
+header > :not(.hero-bg){
+  position: relative;
+  z-index: 1;
+}
+
+/* contact menu at the top */
 .above_menu{
   display: flex;
   gap: 1vw;
