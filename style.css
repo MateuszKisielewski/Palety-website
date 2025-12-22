@@ -1,4 +1,4 @@
-a/* website font */
+/* website font */
 .noto-sans-main-font {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -234,7 +234,7 @@ hr{
 /* black bar with contact info */
 #contact{
   display: flex;
-  justify-content: space-between;
+  justify-content: space- between;
   align-items: flex-start;
   text-align: left;
   background-color: #000000;
@@ -258,6 +258,18 @@ hr{
   color: white;
   height: 5vh;
   padding: 0.5%;
+}
+
+#socialmedia a {
+  text-decoration: none;
+}
+
+#socialmedia a:visited {
+  text-decoration: none;
+}
+
+#socialmedia a:hover {
+  text-decoration: none;
 }
 
 #socialmedia img{
@@ -419,10 +431,11 @@ hr{
 
   #galery{
     margin: 2vh 0 2vh 0;
+    height: 50vh;
   }
 
   #contact{
-    height: 7vh;
+    height: 12vh;
   }
 
   #brands{
