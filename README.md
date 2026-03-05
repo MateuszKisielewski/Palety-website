@@ -1,2 +1,2 @@
 # Palety-website
-Website project for PaletyMix
+Website project PaletyMixWtórek
